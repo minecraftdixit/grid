@@ -1,0 +1,152 @@
+body,html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background:linear-gradient(to right,#b6fbff,#83a4d4);
+
+font-size: 40px;
+}
+.grid{
+  margin: 20px;
+
+}
+.material-icons{
+  height: 100%;
+}
+.grid div:nth-child(1){
+  border:2px white solid;
+  background-image: url("japanese.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+/* IDEA:
+        background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("trees.jpg"); */
+
+        .grid div:nth-child(2){
+          border:2px white solid;
+          background-image: url("ed.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .grid div:nth-child(3){
+          border:2px white solid;
+          background-image: url("zayn.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .grid div:nth-child(4){
+          border:2px white solid;
+          background-image: url("shawn.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .grid div:nth-child(5){
+          background-repeat: no-repeat;
+          text-align: center;
+          color:white;
+          border-radius: 80px 50px ;
+          border: 5px white solid;
+        }
+        .grid div:nth-child(6){
+          border:2px white solid;
+          background-image: url("chainsmokers.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+        }.grid div:nth-child(7){
+          border:2px white solid;
+        background-image: url("halsey.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        }
+        .grid div:nth-child(8){
+        /* IDEA: no hover fetch option */
+        }
+          .grid div:nth-child(9){
+            border:2px white solid;
+              background-image: url("post.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        /* IDEA: hover effect */
+        .grid div:nth-child(2):hover{
+          transform: scale(1.1);
+          transition: 1s transform  ;
+          background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("edsheeran.jfif");
+          background-size: contain;
+          background-repeat: no-repeat;
+          text-align: center;
+          color:white;
+          border-radius: 80px 50px ;
+
+
+        }
+        .grid div:nth-child(3):hover{
+          transform:rotateY(360deg);
+
+          transition: 2s transform  ;
+          background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("zayn.jfif");
+          background-size: contain;
+          background-repeat: no-repeat;
+          text-align: center;
+          color:white;
+          border-radius: 80px 50px ;
+
+
+        }
+        .grid div:nth-child(4):hover{
+          transform:rotateX(360deg);
+
+          transition: .2s transform  ;
+          background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("shawn.jfif");
+          background-size: contain;
+          background-repeat: no-repeat;
+          text-align: center;
+          color:white;
+          border-radius: 80px 50px ;
+        }
+        .grid div:nth-child(5):hover{
+ /* IDEA: no hover leftmost grid */
+
+        }
+        .grid div:nth-child(6):hover{
+          transform:scale(1.2);
+
+          transition: 2s transform  ;
+          background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("chainsmokeers.jfif");
+          background-size: contain;
+          background-repeat: no-repeat;
+          text-align: center;
+          color:white;
+          border-radius: 80px 50px ;
+        }
+        .grid div:nth-child(7):hover{
+          transform:scale(1.2);
+
+          transition: 2s transform  ;
+          background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("hasley.jfif");
+          background-size: contain;
+          background-repeat: no-repeat;
+          text-align: center;
+          color:white;
+          border-radius: 80px 50px ;
+
+
+        }
+        .grid div:nth-child(8):hover{
+/* IDEA: fetch option */
+        }
+
+  .grid div:nth-child(9):hover{
+    transform:scale(1.2);
+    transition: 2s transform  ;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("post malone.jfif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:white;
+    border-radius: 80px 50px ;
+
+  }

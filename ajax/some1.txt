@@ -1,0 +1,7 @@
+<style media="screen">
+  #hello {
+    color: red;
+  }
+</style>
+
+<p id="hello"> welcome to zayn mmalik</p>
