@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="new.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1>Musixel</h1>
+
+  <p>artists</p>
+  <div class="grid">
+
+    <div>
+      english
+    </div>
+    <div>
+      <p class="text">ed<button type="button" class="btn btn-primary" id="ed">browse here</button></p>
+
+    </div>
+    <div>
+      <p class="text">zayn<button id="zayn" name="button">browse here</button></p>
+    </div>
+    <div>
+      <p class="text">shawn</p>
+    </div>
+    <div>
+      <p class="text">justin beiber</p>
+    </div>
+    <div>
+      <p class="text">chainsmokers</p>
+    </div>
+
+    <div>
+      <p class="text">halsey</p>
+    </div>
+    <div>
+      <button class="material-icons">
+        loop
+      </button>
+    </div>
+    <div>
+      <p class="text">post malone</p>
+    </div>
+  </div>
+
+
+</body>
+<script src="jquery-3.5.1.min.js" charset="utf-8"></script>
+<script src="script.js" charset="utf-8"></script>
+<script type="text/javascript">
+  $(".material-icons").click(function() {
+    $("div:nth-child(9)").css("opacity", 1);
+    $("div:nth-child(8)").hide(2000);
+
+  });
+  // IDEA: ajax call
+  $("#ed").click(function() {
+    $.ajax({
+      url: "ajax/some.txt",
+      success: function(data) {
+        $("div:nth-child(5)").html(data);
+      }
+    })
+  });
+  $("#zayn").click(function() {
+    $.ajax({
+      url: "ajax/some1.txt",
+      success: function(data) {
+        $("div:nth-child(5)").html(data);
+      }
+    })
+  });
+</script>
+
+</html>

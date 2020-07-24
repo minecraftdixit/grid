@@ -1,8 +1,41 @@
-<p>hello to the ed sheeran </p>
+<style media="screen">
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .grid div:nth-child(5) {
+    background-color: red;
+    color: white;
+  }
+
+  li {
+    margin-left: 20px;
+    text-align: left;
+    border-bottom: 2px black solid;
+
+  }
+
+  audio {
+
+    opacity: ;
+  }
+
+  #play {
+    pointer
+  }
+</style>
+<p>hello ed sheeran</p>
 <ul>
+  <li>hello<audio controls>
+      <source src="songs\countingstars.ogg" type="audio/ogg">
+      <source src="songs\countingstars.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+    <span id=" play" class="material-icons">
+      play_arrow
+    </span></li>
 
-
-
-  <li>perfect</li>
-  <li>closer</li>
 </ul>
